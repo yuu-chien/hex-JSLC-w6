@@ -45,22 +45,27 @@ const routes = [
       {
         path: 'products',
         name: 'Admin-products',
-        component: () => import('../views/Backend/Admin-products'),
+        component: () => import('../views/Backend/Admin-products.vue'),
+      },
+      {
+        path: 'product/:id',
+        name: 'Admin-products-product',
+        component: () => import('../views/Backend/Admin-product.vue'),
       },
       {
         path: 'coupons',
         name: 'Admin-coupons',
-        component: () => import('../views/Backend/Admin-coupons'),
+        component: () => import('../views/Backend/Admin-coupons.vue'),
       },
       {
         path: 'images',
         name: 'Admin-images',
-        component: () => import('../views/Backend/Admin-images'),
+        component: () => import('../views/Backend/Admin-images.vue'),
       },
       {
         path: 'orders',
         name: 'Admin-orders',
-        component: () => import('../views/Backend/Admin-orders'),
+        component: () => import('../views/Backend/Admin-orders.vue'),
       },
     ],
   },

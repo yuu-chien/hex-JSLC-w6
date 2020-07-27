@@ -23,9 +23,9 @@
           <!-- 使用三原運算子判斷 boolean -->
           <td>{{ product.enabled ? "上架中": "下架中" }}</td>
           <td>
-            <span class="material-icons _c_icon" data-toggle="modal" data-target="#productModal">
+            <a href="#" class="material-icons _c_icon" @click.prevent="getAllProducts(product)">
               edit
-            </span>
+            </a>
             <span class="material-icons _c_icon" data-toggle="modal" data-target="#delModal">
               delete
             </span>
@@ -44,14 +44,14 @@ export default {
     };
   },
   methods: {
-    getAllProducts() {},
+    getAllProducts(product) {
+      this.$router.push(`product/${product.id}`);
+    },
   },
   created() {
-    console.log('process.env.VUE_APP_UUID', process.env.VUE_APP_UUID);
     this.$http.get(`${process.env.VUE_APP_APIPATH}/${process.env.VUE_APP_UUID}/ec/products`)
       .then((res) => {
         this.products = res.data.data;
-        console.log('this.products', this.products);
       });
   },
 };

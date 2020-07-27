@@ -28,6 +28,21 @@ const routes = [
         name: 'Admin-products',
         component: () => import('../views/Backend/Admin-products'),
       },
+      {
+        path: 'coupons',
+        name: 'Admin-coupons',
+        component: () => import('../views/Backend/Admin-coupons'),
+      },
+      {
+        path: 'images',
+        name: 'Admin-images',
+        component: () => import('../views/Backend/Admin-images'),
+      },
+      {
+        path: 'orders',
+        name: 'Admin-orders',
+        component: () => import('../views/Backend/Admin-orders'),
+      },
     ],
   },
 ];

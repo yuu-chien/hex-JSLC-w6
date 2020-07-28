@@ -1,4 +1,4 @@
-# hex-w6
+# hex-JSLC-w6
 
 ## Project setup
 ```

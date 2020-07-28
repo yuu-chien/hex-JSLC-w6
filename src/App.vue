@@ -1,15 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
+      <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/Playa">Playa 前台</router-link> |
       <router-link to="/admin">Admin</router-link>
+      </div>
+    <div class="container-fuild">
+      <router-view/>
     </div>
-    <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+*{
+  outline: 1px solid gray;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

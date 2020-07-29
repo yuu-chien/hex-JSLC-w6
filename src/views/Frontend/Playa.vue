@@ -5,15 +5,15 @@
           <ul class="d-flex">
             <li>
                 <router-link to="/Playa/index"
-                class="_c_menu-link color-basic-w fz-xs fw-bold">首頁</router-link>
+                class="_c_menu-link color-basic-w fz-xs fw-bold">首頁．</router-link>
             </li>
             <li>
                 <router-link to="/Playa/about"
-                class="_c_menu-link mr-1 color-basic-w fz-xs fw-bold">ABOUT</router-link>
+                class="_c_menu-link mr-1 color-basic-w fz-xs fw-bold">ABOUT．</router-link>
             </li>
             <li>
               <router-link to="/Playa/products"
-              class="_c_menu-link mr-1 color-basic-w fz-xs fw-bold">PRODUCTS</router-link>
+              class="_c_menu-link mr-1 color-basic-w fz-xs fw-bold">PRODUCTS．</router-link>
             </li>
             <li>
               <router-link to="/Playa/cart">

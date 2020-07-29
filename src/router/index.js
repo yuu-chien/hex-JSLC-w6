@@ -31,6 +31,11 @@ const routes = [
         component: () => import('../views/Frontend/Playa-products.vue'),
       },
       {
+        path: 'product/:id',
+        name: 'Playa-product',
+        component: () => import('../views/Frontend/Playa-product.vue'),
+      },
+      {
         path: 'cart',
         name: 'Playa-cart',
         component: () => import('../views/Frontend/Playa-cart.vue'),

@@ -32,7 +32,7 @@
                     </p>
                   </div>
                   <div class="d-flex jc-flex-end">
-                    <a href="#" class="fz-xxs _c_menu-link" @click.prevent="getAllProducts(item)">
+                    <a href="#" class="fz-xxs _c_menu-link" @click.prevent="getAProducts(item)">
                       MORE
                     </a>
                   </div>
@@ -56,7 +56,7 @@ export default {
     };
   },
   methods: {
-    getAllProducts(product) {
+    getAProducts(product) {
       this.$router.push(`product/${product.id}`);
     },
   },

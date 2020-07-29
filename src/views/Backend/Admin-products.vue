@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-wrap">
-     <loading :active.sync="isLoading"></loading>
+    <loading :active.sync="isLoading"></loading>
     <div class="_c_card _c_card_product mb-4 col-4 d-flex"
     v-for="item in products" :key="item.id">
       <div class="_c_card-img-wrap">
@@ -19,9 +19,12 @@
           <p class="fz-xxs">{{ item.price | thousands }}</p>
         </div>
         <div class="d-flex jc-flex-end">
-          <span class="material-icons _c_icon mr-3" data-toggle="modal" data-target="#productModal">
-            edit
-          </span>
+          <a href="#" @click.prevent="getAllProducts(item)">
+            <span class="material-icons _c_icon mr-3" data-toggle="modal"
+            data-target="#productModal">
+              visibility
+            </span>
+          </a>
           <span class="material-icons _c_icon" data-toggle="modal" data-target="#delModal">
             delete
           </span>

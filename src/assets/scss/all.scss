@@ -1,6 +1,11 @@
 @import './base/reset';
 @import './base/base';
 
+@font-face {
+    font-family: 'Republiko';
+    src: url(../font/Republiko-Outline1.otf);
+}
+
 @import './utils/variables';
 @import './utils/utilities';
 @import './utils/common';
@@ -11,3 +16,4 @@
 
 @import './pages/admin';
 @import './pages/admin-product';
+@import './pages/playa-products';

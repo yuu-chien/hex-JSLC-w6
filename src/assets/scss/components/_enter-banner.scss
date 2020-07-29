@@ -1,11 +1,22 @@
 .enter-banner{
     width: 100%;
-    height: 100vh;
-}
-
-._c_banner-index {
-    background-image: url(https://images.unsplash.com/photo-1548051718-3acad2d13740?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
     background-size: cover;
     // background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-basic-w;
+}
+
+._c_banner-index {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1548051718-3acad2d13740?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+._c_banner-products {
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1487252743978-58058cd2fc34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1883&q=80);
+    background-position: center 30%;
 }

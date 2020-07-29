@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-      <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/Playa">Playa 前台</router-link> |
-      <router-link to="/admin">Admin</router-link>
-      </div>
+      <!-- <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/Playa">Playa 前台</router-link> |
+        <router-link to="/admin">Admin</router-link>
+      </div> -->
     <div class="container-fuild">
       <router-view/>
     </div>

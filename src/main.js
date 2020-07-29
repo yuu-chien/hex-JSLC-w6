@@ -5,7 +5,7 @@ import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/all.scss';
+import './assets/scss/all.scss';
 import thousandsFilter from './filters/thousands';
 import App from './App.vue';
 import router from './router';

@@ -1,6 +1,10 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/Playa">Playa 首頁</router-link> |
+      <router-link to="/admin">Admin</router-link>
+    </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>

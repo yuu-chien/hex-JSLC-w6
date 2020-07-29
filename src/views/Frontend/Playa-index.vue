@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h2>Front index</h2>
+    <section class="enter-banner _c_banner-index"></section>
   </div>
 </template>

@@ -1,10 +1,13 @@
 @import './base/reset';
-@import './base/reset';
+@import './base/base';
 
 @import './utils/variables';
 @import './utils/utilities';
+@import './utils/common';
 
 @import './components/card';
+@import './components/enter-banner';
+@import './components/navbar';
 
 @import './pages/admin';
 @import './pages/admin-product';

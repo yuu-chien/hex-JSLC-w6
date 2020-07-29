@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22cdf5"],{f4a2:function(t,n,e){"use strict";e.r(n);var s=function(){var t=this,n=t.$createElement;t._self._c;return t._m(0)},c=[function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",[e("h2",{staticClass:"p-5"},[t._v("後台優惠券")]),e("button",{staticClass:"btn btn-info"},[t._v("123")])])}],a=e("2877"),l={},u=Object(a["a"])(l,s,c,!1,null,null,null);n["default"]=u.exports}}]);
-//# sourceMappingURL=chunk-2d22cdf5.75503c7d.js.map
+//# sourceMappingURL=chunk-2d22cdf5.fbae82fd.js.map

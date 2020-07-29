@@ -12,9 +12,9 @@
 </template>
 
 <style lang="scss">
-*{
-  outline: 1px solid darksalmon;
-}
+// *{
+//   outline: 1px solid darksalmon;
+// }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

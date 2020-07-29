@@ -3,6 +3,7 @@ import VueAxios from 'vue-axios';
 import axios from 'axios';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/all.scss';
 import App from './App.vue';
 import router from './router';
 

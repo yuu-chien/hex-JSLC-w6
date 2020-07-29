@@ -1,0 +1,12 @@
+._c_admin-menu {
+    min-height: 100vh;
+}
+
+._c_menu-link {
+    text-decoration: none !important;
+    color: $color-tertiary;
+    &:hover {
+        text-decoration: none !important;
+        color: $color-secondary;
+    }
+}

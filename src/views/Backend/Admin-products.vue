@@ -1,42 +1,28 @@
 <template>
-  <div>
-    <h2>後台產品列表頁</h2>
-    <table class="table table-hover bg-light">
-      <thead class="text-center">
-        <tr>
-          <!-- <th scope="col">#</th> -->
-          <th scope="col">產品名稱</th>
-          <th scope="col">產品分類</th>
-          <th scope="col">原價</th>
-          <th scope="col">售價</th>
-          <th scope="col">狀態</th>
-          <th scope="col"> </th>
-        </tr>
-      </thead>
-      <tbody class="text-center">
-        <tr v-for="(product, index) in products" :key="index">
-          <!-- <th scope="row">{{ product.id }}</th> -->
-          <td>{{ product.title }}</td>
-          <td>{{ product.category }}</td>
-          <td>{{ product.origin_price }}</td>
-          <td>{{ product.price }}</td>
-          <!-- 使用三原運算子判斷 boolean -->
-          <td>{{ product.enabled ? "上架中": "下架中" }}</td>
-          <td>
-            <a href="#" class="material-icons _c_icon" @click.prevent="getAllProducts(product)">
-              edit
-            </a>
-            <span class="material-icons _c_icon" data-toggle="modal" data-target="#delModal">
-              delete
-            </span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="d-flex flex-wrap">
+    <div class="_c_card _c_card_product mb-4 col-4 d-flex"
+    v-for="item in products" :key="item.id">
+      <div class="_c_card-img-wrap">
+        <img :src="item.imageUrl" alt="">
+      </div>
+      <div class="card-body d-flex flex-d-col jc-space-between">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.price | total }}</p>
+        <div class="d-flex jc-flex-end">
+          <span class="material-icons _c_icon mr-3" data-toggle="modal" data-target="#productModal">
+            edit
+          </span>
+          <span class="material-icons _c_icon" data-toggle="modal" data-target="#delModal">
+            delete
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<script>
+<script type="module">
+
 export default {
   data() {
     return {
@@ -55,4 +41,5 @@ export default {
       });
   },
 };
+
 </script>

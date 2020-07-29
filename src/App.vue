@@ -13,7 +13,7 @@
 
 <style lang="scss">
 *{
-  outline: 1px solid gray;
+  outline: 1px solid darksalmon;
 }
 
 #app {

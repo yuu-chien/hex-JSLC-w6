@@ -1,5 +1,5 @@
 # hex-JSLC-w6
-六角 JS 作品實戰班｜第六週．Vue Cli 建立路由  
+2020 夏季．六角 JS 作品實戰班｜第六週．Vue Cli 建立路由  
 * [入口](https://yuu-chien.github.io/hex-JSLC-w6/dist/#/)
 * 前台
     * [前台 - 首頁](https://yuu-chien.github.io/hex-JSLC-w6/dist/#/Playa/index)
